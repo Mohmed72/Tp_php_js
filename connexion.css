@@ -1,0 +1,44 @@
+*{
+    text-align: center;
+}
+section{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 20px;
+    margin: 10% 35% 10% 35%;
+    border: 2px solid rgb(255, 125, 0);
+    font-weight: bolder;
+
+}
+section input{
+    width: 60%;
+    height: 1.5em;
+    border: 2px solid rgb(255, 125, 0);
+    border-radius: 15px;
+}
+img{
+    width: 15vw;
+    border: 2px solid rgb(255, 125, 0);
+}
+section form #connexion{
+    width: 35%;
+    height: 2em;
+    background-color: rgb(255, 125, 0);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 1em;
+}
+section form #connexion:hover{
+    width: 35%;
+    height: 2em;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 125, 0);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 1em;
+}

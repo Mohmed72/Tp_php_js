@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'inscription</title>
+    <link rel="stylesheet" href="inscription.css">
+</head>
+<body>
+    <form action="inscription.php" method="post" id="inscription" enctype="multipart/form-data">
+        <h1>Formulaire d'inscription</h1>
+        <div id="err"></div>
+        <!--zone pour promotion-->
+    <label for="promotion">Promotion :</label><br>
+    <input type="text" name="promotion" id="promotion" placeholder="P1,P2,P3...">
+         <!--Zone pour nom-->
+        <label for="nom">Nom: </label><br>
+        <input type="text" name="nom" id="nom" placeholder="Nom"><br>
+    <!--zone pour prenom-->
+        <label for="prenom">Prenom: </label><br>
+        <input type="text" name="prenom" id="prenom" placeholder="Prenom"><br>
+    <!--age-->
+        <label for="age">Age: </label><br>
+        <input type="number" name="age" id="age" placeholder="Age"><br>
+    <!--zone pour date de naissance-->
+    <label for="naissance">Année de naissance: </label><br>
+        <input type="date" name="naissance" id="naissance" placeholder="date de naissance"><br>
+    <!--zone pour mail-->
+        <label for="email">Adress mail: </label><br>
+        <input type="email" name="email" id="email" placeholder="exemple@gmail.com"><br>
+    <!--zone pour numero de telephone-->
+    <label for="telephone">Numero de téléphone: </label><br>
+        <input type="tel" name="telephone" id="telephone" placeholder="téléphone"><br>
+    <!--zone pour certification-->
+    <label for="annee_certification">Année de certification :</label><br>
+    <input type="number" name="annee_certification" id="annee_certification" placeholder="Année de certification">
+    <!--zone pour la photo-->
+    <label for="photo">photo: </label>
+    <input type="file" name="photo" id="photo">
+    <!--bouton envoi-->
+        <div class="envoi">
+            <input type="submit" name="ajouter" value="Ajouter">
+        </div>
+    </form>
+    <script src="inscription.js"></script>
+</body>
+</html>
